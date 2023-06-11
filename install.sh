@@ -29,6 +29,7 @@ echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/battery.sh"    >> crontab
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/memory.sh"     >> crontab_new.temp
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/swap.sh"       >> crontab_new.temp
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/cputemp.sh"    >> crontab_new.temp
+echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/gputemp.sh"    >> crontab_new.temp
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/topload.sh"    >> crontab_new.temp
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/mouse.sh"      >> crontab_new.temp
 echo "0,10,20,30,40,50 * * * * cd .my-logs; ~/.my-logs/topprocess.sh" >> crontab_new.temp
